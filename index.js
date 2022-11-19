@@ -1,8 +1,6 @@
 var readlineSync = require('readline-sync');
 
-//  input 
-
-var userName = readlineSync.question('Hey,What is your name? ');
+ var userName = readlineSync.question('Hey,What is your name? ');
 console.log('Heyy ', userName, '!');
 
 questionOne = {
